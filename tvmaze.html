@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TV Maze</title>
+    <link
+      href="https://bootswatch.com/4/superhero/bootstrap.css"
+      rel="stylesheet">
+  <meta charset="utf-8">
+  <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+  <body>
+    <div class="container">
+
+    <h1>TV Maze</h1>
+
+    <form class="form-inline" id="search-form">
+      <input class="form-control" id="search-query" value="">
+      <button class="btn btn-primary" type="submit">Go!</button>
+    </form>
+
+    <div class="row mt-3" id="shows-list">
+    </div>
+
+    <section style="display: none" id="episodes-area">
+      <h2>Episodes</h2> 
+      <ul id="episodes-list">
+      </ul>
+    </section>  
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js" integrity="sha512-0qU9M9jfqPw6FKkPafM3gy2CBAvUWnYVOfNPDYKVuRTel1PrciTj+a9P3loJB+j0QmN2Y0JYQmkBBS8W+mbezg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="tvmaze.js"></script>
+
+    </div>
+
+  </body>
+</html>
